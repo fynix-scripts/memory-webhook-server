@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="da" class="page-regler">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Memory 2.0 - Regler</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" type="image/gif" href="logo/logo.gif" />
+</head>
+<body class="page-regler">
+<div class="background-slider" aria-hidden="true">
+  <div class="slide active" style="background-image:url('https://cdn.discordapp.com/attachments/1403153259115577587/1403748908835803156/bg.png?ex=6898ae8c&is=68975d0c&hm=db5d3654bcdee96fdc10bb83a5028a5033f75f54ea2db3ee883999efa47b6593&')"></div>
+  <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=1600&q=80')"></div>
+  <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1505765051643-3821d6a19a5b?auto=format&fit=crop&w=1600&q=80')"></div>
+</div>
+<div class="background-overlay"></div>
+<div class="site-wrapper">
+  <header class="site-header" role="banner">
+    <div class="header-container">
+      <a class="logo-link" href="index.html">
+        <img src="logo/logo.gif" alt="Memory 2.0" class="logo-image" />
+        <span class="logo-text">Memory 2.0</span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Hovednavigation">
+        <a class="nav-link active" href="regler.html">Regler</a>
+        <a class="nav-link" href="ansogninger.html">Ansøgninger</a>
+        <a class="nav-link" href="om.html">Om Serveren</a>
+        <a class="nav-link" href="donationer.html">Donationer</a>
+      </nav>
+      <div class="header-actions">
+        <a class="user-profile-link" href="mine-ansogninger.html" title="Mine ansøgninger">
+          <img class="user-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar" />
+          <div class="user-info">
+            <span class="user-name">Gæst</span>
+            <span class="user-status">Ikke logget ind</span>
+          </div>
+        </a>
+        <a class="cta-button" id="discordBtn" href="https://discord.gg/pCzWqbzgaR" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+          Tilslut Discord
+        </a>
+        <button class="logout-btn" id="loginBtn">Log ind</button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Åben menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <a class="nav-link active" href="regler.html">Regler</a>
+      <a class="nav-link" href="ansogninger.html">Ansøgninger</a>
+      <a class="nav-link" href="om.html">Om Serveren</a>
+      <a class="nav-link" href="donationer.html">Donationer</a>
+    </nav>
+  </header>
+
+<main>
+<section class="regler-section" role="main" style="max-width: 800px; margin: 2rem auto; padding: 0 1rem;">
+
+  <div class="category-buttons">
+    <button class="cat-btn" data-target="serverregler">Serverregler</button>
+    <button class="cat-btn" data-target="banderegler">Bande-regler</button>
+  </div>
+
+  <div class="rules-box-wrapper">
+    <article id="serverregler" class="rules-content">
+      <h2>Serverregler</h2>
+
+      <div class="section-group">
+        <h3>Generel RP-adfærd</h3>
+        <ol>
+          <li>§1.1: Metagaming & Streamsniping er forbudt. Al info skal skaffes in-game.</li>
+          <li>§1.2: Powergaming – du må kun gøre realistiske ting. Brug din sunde fornuft.</li>
+          <li>§1.3: RDM/VDM er ikke tilladt. Drab kræver gyldigt RP-grundlag.</li>
+          <li>§1.4: FearRP – frygt for liv i farlige situationer er påkrævet.</li>
+          <li>§1.5: NLR – Hvis du respawner, må du ikke huske eller vende tilbage til scenariet.</li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Regelbrud og straf</h3>
+        <ol>
+          <li>§1.6: Snyd & bug abuse = ban. Det gælder også udnyttelse af bugs.</li>
+          <li>§1.7: Racisme og diskrimination er aldrig tilladt – hverken in- eller out-game.</li>
+          <li>§1.8: OOC i spillet er forbudt. Brug Discord ved problemer.</li>
+          <li>§1.9: Combatlogging er ikke tilladt. Kom straks tilbage hvis du crasher.</li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Adfærd og karakterer</h3>
+        <ol>
+          <li>§2.1: Copbaiting – ingen handlinger udelukkende for at få politiet efter dig.</li>
+          <li>§2.2: Stjæle tjenestekøretøjer (politi/EMS) er forbudt.</li>
+          <li>§2.3: CK (Character Kill) er muligt – kræver ticket og bevis.</li>
+          <li>§2.4: Flere karakterer kræver godkendelse via ticket.</li>
+          <li>§2.5: Voldtægts-RP er forbudt og straffes hårdt.</li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Politi & EMS-regler</h3>
+        <ol>
+          <li>§3.1: Max straf: 300 måneder (5 timer).</li>
+          <li>§3.2: Ransagning kræver dommerkendelse eller ticket, hvis ingen dommer er online.</li>
+          <li>§3.3: Visitation kræver gyldigt grundlag.</li>
+          <li>§3.4: Korruption er tilladt i mild grad – fx hjælpe bander diskret. Ikke våbensalg.</li>
+          <li>§3.5: Du kan godt have politi- og bandekarakter – kræver godkendelse i ticket.</li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Røveri-regler</h3>
+        <ol>
+          <li>§4.1: Du skal bære våben under røveri.</li>
+          <li>§4.2: Nationalbank kræver:
+            <ul>
+              <li>Min. 4 personer</li>
+              <li>Min. 3 gidsler</li>
+              <li>Min. 8 betjente online</li>
+            </ul>
+          </li>
+          <li>§4.3: Looting uden RP er forbudt.</li>
+          <li>§4.4: Du må røve andre, hvis der er godt RP-grundlag.</li>
+          <li>§4.5: Det er kun tilladt at røve beslaglagte ting tilbage.</li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Firma-regler</h3>
+        <ol>
+          <li>§6.1: Firmaejere må ikke være i bandernes ledelse.</li>
+          <li>§6.2: Du kan ikke eje én virksomhed og være ansat i en anden.</li>
+          <li>§6.3: Udbetaling fra firmakasse kræver ticket-godkendelse.</li>
+          <li>§6.4: Firmaejere står for rekruttering og aktivitet.</li>
+          <li>§6.5: Arbejdspåklædning skal være passende – ingen bandegear.</li>
+        </ol>
+      </div>
+    </article>
+
+    <article id="banderegler" class="rules-content">
+      <h2>Bande-regler</h2>
+
+      <div class="section-group">
+        <h3>Antal medlemmer</h3>
+        <ol>
+          <li>§1.0: Maks 25 medlemmer pr. bande.</li>
+          <li>Maks 7 pushers pr. bande.</li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Bande-retningslinjer</h3>
+        <ol>
+          <li>§2.0 – Rekrutering af nye medlemmer: Nye medlemmer skal igennem et møde in-game.<br />
+            Uden in-game møde → bandestrike.
+          </li>
+          <li>§2.1 – Skift af boss og bandeansvar: Vælger man at skifte boss, kræver det godkendelse via bandeticket.<br />
+            Banden kan lukkes ved:<br />
+            - Gentagne skifte af boss<br />
+            - Kæmpe medlemsudskiftning
+          </li>
+          <li>§2.2 – PK og CK: Bandeleder må altid PK’e et medlem, hvis det giver mening i forhold til RP, dog skal det igennem en ticket.<br />
+            Ved CK skal der oprettes ticket, med grundlag på CK.
+          </li>
+          <li>§2.3 – Brug af snyd: Brug af tredjepartsprogrammer = banden lukkes uden varsel.</li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Dummebøder</h3>
+        <ol>
+          <li>§3.0: Dummebøder til egne medlemmer styrer man selv i banden.<br />
+          Dummebøder til andre bander skal holdes realistisk, afhængigt af hvad de har gjort.<br />
+          Bøder skal holdes realistiske! Ingen dummebøder over 15.000.000 -.<br />
+          Overdrivelse = strike efter vurdering af bandeansvarlig.</li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Marker</h3>
+        <ol>
+          <li>§4.0: Marker kan flyttes, hvis det bliver godkendt af en bandeansvarlig via ticket, men der skal være grundlag for det.<br />
+            Marker må først overtages, når man har våben!<br />
+            Marker kan overtages gennem:
+            <ul>
+              <li>Forhandlinger – hvis modparterne ikke vil forhandle, kan marken kæmpes om i konflikt eller krig, hvis det bliver godkendt gennem support.</li>
+            </ul>
+            Man starter ikke med skydning for at overtage, der skal være kontakt med modparterne.
+          </li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Konfliktdage</h3>
+        <ol>
+          <li>§5.1 – Konfliktforløb: Skal godkendes via bandeansvarlig.<br />
+            Bevis skal kunne fremvises med grundlag.<br />
+            Dag-for-dag skema:<br />
+            Dag 1: Kidnap pushere/medlemmer – de skal overleve (ingen dør).<br />
+            Dag 2: Brug slagvåben (ingen skydevåben).<br />
+            Dag 3–4: Brug kun pistoler (ikke automatvåben).<br />
+            Dag 5: Kidnap + meld krig – optag klip og send i ticket.
+          </li>
+          <li>§5.2 – Under krig: Marker, labs osv. kan overtages.<br />
+            Undgå at inddrage civile borgere, skyd kun dem man er i krig imod!<br />
+            Der skal sendes billeder af outfit inden man ruller.
+          </li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Andre regler</h3>
+        <ol>
+          <li>§6.0: Skydning mod politi uden grund = potentiel bandestrike.</li>
+          <li>§6.1: Under bande-RP skal man bære synlige bandemarkeringer (fx vest med logo – ikke lommeklude).</li>
+          <li>§6.2: Greenzones kan midlertidigt ophæves under konflikt.<br />
+            Hospital er dog altid GREENZONE – intet skyderi der!</li>
+          <li>§6.3: Serverens generelle regler gælder også for bander.<br />
+            Brud = strike.</li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Krig</h3>
+        <ol>
+          <li>§7.0: Alle kills skal optages – ellers tæller de ikke.</li>
+          <li>§7.1: Brug af snyd = banden dømt taber og evt. lukket.</li>
+        </ol>
+      </div>
+
+      <div class="section-group">
+        <h3>Support</h3>
+        <ol>
+          <li>§8.0: Bande-kanaler er ikke support! Brug tickets.</li>
+          <li>§8.1: Kun bandeleder og underboss må oprette tickets under konflikt/krig.</li>
+          <li>§8.2: Misbrug af tickets (spam, dårlige klips, tilt) = strike.</li>
+        </ol>
+      </div>
+    </article>
+  </section>
+</main>
+
+<script>
+  const mobileMenuBtn = document.getElementById('mobileMenuBtn')
+  const mobileNav = document.getElementById('mobileNav')
+
+  function closeMobileNav() {
+    mobileNav.classList.remove('is-open')
+    mobileNav.setAttribute('aria-hidden', 'true')
+  }
+
+  function checkScreenSize() {
+    if (window.innerWidth >= 768) {
+      closeMobileNav()
+    }
+  }
+
+  mobileMenuBtn.addEventListener('click', () => {
+    mobileNav.classList.toggle('is-open')
+    mobileNav.setAttribute('aria-hidden', String(!mobileNav.classList.contains('is-open')))
+  })
+
+  window.addEventListener('resize', checkScreenSize)
+
+  checkScreenSize()
+
+  const loginBtn = document.getElementById('loginBtn')
+  const userAvatar = document.querySelector('.user-avatar')
+  const userNameSpan = document.querySelector('.user-name')
+  const userStatusSpan = document.querySelector('.user-status')
+
+  const DISCORD_CLIENT_ID = '1403793707085594705'
+  const REDIRECT_URI = 'https://pghosting.dk//callback.html'
+
+  loginBtn.addEventListener('click', () => {
+    const storedUser = JSON.parse(localStorage.getItem('discordUser'))
+    if (storedUser) {
+      localStorage.removeItem('discordUser')
+      updateUserUI(null)
+    } else {
+      const oauthUrl = `https://discord.com/api/oauth2/authorize?client_id=${DISCORD_CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=code&scope=identify%20email`
+      window.location.href = oauthUrl
+    }
+  })
+
+  function updateUserUI(user) {
+    if (user) {
+      userAvatar.src = user.avatarUrl || 'https://cdn.discordapp.com/embed/avatars/0.png'
+      userNameSpan.textContent = user.username || 'Bruger'
+      userStatusSpan.textContent = ''
+      loginBtn.textContent = 'Log ud'
+    } else {
+      userAvatar.src = 'https://cdn.discordapp.com/embed/avatars/0.png'
+      userNameSpan.textContent = ''
+      userStatusSpan.textContent = 'Ikke logget ind'
+      loginBtn.textContent = 'Log ind'
+    }
+  }
+
+  const storedUser = JSON.parse(localStorage.getItem('discordUser'))
+  updateUserUI(storedUser)
+
+const buttons = document.querySelectorAll('.cat-btn')
+const contents = document.querySelectorAll('.rules-content')
+let activeContent = null
+let activeButton = null
+
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const targetId = btn.getAttribute('data-target')
+    const targetContent = document.getElementById(targetId)
+
+    if (activeContent === targetContent) {
+      btn.classList.remove('active')
+      activeContent.classList.remove('fade-in')
+      activeContent.classList.add('fade-out')
+
+      activeContent.addEventListener('animationend', () => {
+        activeContent.classList.remove('active', 'fade-out')
+        activeContent.style.pointerEvents = 'none'
+      }, { once: true })
+
+      activeContent = null
+      activeButton = null
+      return
+    }
+
+    if (activeContent) {
+      activeButton.classList.remove('active')
+
+      activeContent.classList.remove('fade-in')
+      activeContent.classList.add('fade-out')
+
+      activeContent.addEventListener('animationend', () => {
+        activeContent.classList.remove('active', 'fade-out')
+        activeContent.style.pointerEvents = 'none'
+
+        targetContent.classList.add('active', 'fade-in')
+        targetContent.style.pointerEvents = 'auto'
+        btn.classList.add('active')
+
+        activeContent = targetContent
+        activeButton = btn
+      }, { once: true })
+    } else {
+      targetContent.classList.add('active', 'fade-in')
+      targetContent.style.pointerEvents = 'auto'
+      btn.classList.add('active')
+
+      activeContent = targetContent
+      activeButton = btn
+    }
+  })
+})
+
+</script>
+</div>
+</body>
+</html>
